@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Curated List</h1>
+      <ul>
+        <li>
+          <a href="https://www.native.directory/">native.directory</a>
+        </li>
+        <li>
+          <a href="https://www.awesome-react-native.com/">Awesome React Native</a>
+        </li>
+        <li>
+          <a href="https://js.coach/?collection=React+Native">js.coach</a>
+        </li>
+      </ul>
+      <h1>좋은 참고자료</h1>
+      <a href="https://drive.google.com/file/d/1LKtyaDE9qnrqOeJvQRhIhWqdZ229ofR7/view?fbclid=IwAR3CXaz0HevOfkHG4DsAoWeh-a67EAAfQaVBZrxl7RNla3uG-sI3J0ggTkQ">React Native로 성공적인 MVP 개발하기</a>
     </div>
   );
 }
