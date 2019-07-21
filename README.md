@@ -2,6 +2,10 @@
 
 > react-native 개발할 때 참고할만한 사이트를 모아놓은 사이트
 
+## 공식 홈페이지
+
+* [react-native](https://facebook.github.io/react-native/)
+
 ## Curated List
 
 * [native.directory](https://www.native.directory/)

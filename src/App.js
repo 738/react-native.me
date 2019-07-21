@@ -3,21 +3,31 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
+      <h1>공식 홈페이지</h1>
+      <ul>
+        <li>
+          <a href='https://facebook.github.io/react-native/' target='_blank'>react-native</a>
+        </li>
+      </ul>
       <h1>Curated List</h1>
       <ul>
         <li>
-          <a href="https://www.native.directory/">native.directory</a>
+          <a href='https://www.native.directory/' target='_blank'>native.directory</a>
         </li>
         <li>
-          <a href="https://www.awesome-react-native.com/">Awesome React Native</a>
+          <a href='https://www.awesome-react-native.com/' target='_blank'>Awesome React Native</a>
         </li>
         <li>
-          <a href="https://js.coach/?collection=React+Native">js.coach</a>
+          <a href='https://js.coach/?collection=React+Native' target='_blank'>js.coach</a>
         </li>
       </ul>
       <h1>좋은 참고자료</h1>
-      <a href="https://drive.google.com/file/d/1LKtyaDE9qnrqOeJvQRhIhWqdZ229ofR7/view?fbclid=IwAR3CXaz0HevOfkHG4DsAoWeh-a67EAAfQaVBZrxl7RNla3uG-sI3J0ggTkQ">React Native로 성공적인 MVP 개발하기</a>
+      <ul>
+        <li>
+          <a href='https://drive.google.com/file/d/1LKtyaDE9qnrqOeJvQRhIhWqdZ229ofR7/view?fbclid=IwAR3CXaz0HevOfkHG4DsAoWeh-a67EAAfQaVBZrxl7RNla3uG-sI3J0ggTkQ' target='_blank'>React Native로 성공적인 MVP 개발하기</a>
+        </li>
+      </ul>
     </div>
   );
 }
