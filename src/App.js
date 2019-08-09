@@ -33,6 +33,12 @@ function App() {
           <a href='https://drive.google.com/file/d/1LKtyaDE9qnrqOeJvQRhIhWqdZ229ofR7/view?fbclid=IwAR3CXaz0HevOfkHG4DsAoWeh-a67EAAfQaVBZrxl7RNla3uG-sI3J0ggTkQ' target='_blank'>React Native로 성공적인 MVP 개발하기</a>
         </li>
       </ul>
+      <h4>PR via github</h4>
+        <ul>
+          <li>
+            <a href='https://github.com/738/react-native.me' target='_blank'>738/react-native.me</a>
+          </li>
+        </ul>
     </div>
   );
 }
