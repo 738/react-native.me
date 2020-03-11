@@ -30,6 +30,9 @@ function App() {
       <h2>좋은 참고자료</h2>
       <ul>
         <li>
+          <a href='https://www.notion.so/React-Native-2019-506432aa91a646dcb2d1fbbb166b7dd3' target='_blank'>React Native 2019 - 이성민님</a>
+        </li>
+        <li>
           <a href='https://drive.google.com/file/d/1LKtyaDE9qnrqOeJvQRhIhWqdZ229ofR7/view?fbclid=IwAR3CXaz0HevOfkHG4DsAoWeh-a67EAAfQaVBZrxl7RNla3uG-sI3J0ggTkQ' target='_blank'>React Native로 성공적인 MVP 개발하기</a>
         </li>
       </ul>
